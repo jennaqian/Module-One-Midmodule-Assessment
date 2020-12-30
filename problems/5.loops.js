@@ -37,13 +37,11 @@ function multiplesToOneThousand(num) {
 */
 function powersOfTwo(count) {
   let arr = []
-  for (i = 0; i <= count; i ++) {
-    return Math.pow(2,count)
-    arr.push(i)
+  for (let i = 0; i < count; i ++){
+    arr.push(Math.pow(2,i))
   }
   return arr
 }
-// COME BACK TO IT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 module.exports = {

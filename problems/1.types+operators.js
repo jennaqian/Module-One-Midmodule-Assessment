@@ -4,7 +4,14 @@
 */
 function isNumber(val) {
   return typeof val === "number"
+  // if(typeof val === "number") {
+  //   return true 
+  // }
+  // else {
+  //   return false
+  // }
 }
+
 
 /** Takes in a value and returns whether it is truthy
 * @param {any} val - The input value

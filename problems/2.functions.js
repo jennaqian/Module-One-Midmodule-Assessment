@@ -21,8 +21,10 @@ function greeting(name) {
 * @modifies {global.globalCount}
 */
 function incrementGlobalCount(val) {
-  console.log(val + globalCount)
+  global.globalCount += val
+  // globalCount = globalCount + val
 }
+
 
 /** Multiplies three numbers
 * @param {number} firstNum - The first number
